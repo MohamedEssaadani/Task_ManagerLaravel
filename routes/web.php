@@ -15,7 +15,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/postTask', 'TaskController@post');
-Route::get('/get', 'TaskController@get');
-Route::post('/delete', 'TaskController@delete');
-Route::post('/getTask', 'TaskController@getTask');
